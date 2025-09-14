@@ -52,7 +52,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 1) mainImage.src = "images/1.mp4
   if (clickCount === 2) mainImage.src = "images/2.mp4
   if (clickCount === 3) mainImage.src = "images/3.mp4
-  if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
+  if (clickCount === 4) mainImage.src = "images/4.mp4
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
 
@@ -77,5 +77,6 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
 
