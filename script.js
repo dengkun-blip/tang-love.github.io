@@ -51,7 +51,7 @@ noButton.addEventListener("click", function () {
   // 图片变化（前 5 次变化）
   if (clickCount === 1) mainImage.src = "images/1.mp4
   if (clickCount === 2) mainImage.src = "images/2.mp4
-  if (clickCount === 3) mainImage.src = "images/angry.png"; // 生气
+  if (clickCount === 3) mainImage.src = "images/3.mp4
   if (clickCount === 4) mainImage.src = "images/crying.png"; // 哭
   if (clickCount >= 5) mainImage.src = "images/crying.png"; // 之后一直是哭
 });
@@ -77,4 +77,5 @@ yesButton.addEventListener("click", function () {
   document.body.style.overflow = "hidden";
 
 });
+
 
